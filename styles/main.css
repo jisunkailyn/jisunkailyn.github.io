@@ -3,6 +3,7 @@ body {
     margin: 0px;
     margin-top: 25px;
     font-size: 16px;
+    -webkit-text-size-adjust: none;
 }
 
 nav a {
@@ -126,6 +127,123 @@ a.selected {
 .overlay:hover {
     background: rgba(0,0,0,0.5);
     opacity: 1;
+}
+
+
+.project-description > div {
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.project-header {
+    color: #9BC995;
+}
+
+.project-attributes {
+    display: flex;
+    font-weight: 700;
+}
+
+.project-attributes > div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.project-background {
+    background-color: #F4F4F4 !important;
+}
+
+.project-section > div,
+.project-section > img {
+    margin-bottom: 25px;
+}
+
+.project-sub-section {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.project-sub-section > div {
+    margin-bottom: 15px;
+}
+
+.project-sub-header {
+    text-transform: uppercase;
+    color: #62929E;
+}
+
+.project-image {
+    border: 2px solid #E0E0E0;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.persona-image {
+    width: 100%;
+}
+
+.project-list > li {
+    list-style-type: circle;
+    margin-bottom: 15px;
+}
+
+a.project-button {
+    color: white;
+    background-color: #6E6861;
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    display: inline-block;
+    border: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+a.highlighted-link,
+a.highlighted-link:visited {
+    color: #9BC995 !important;
+}
+
+.project-side-by-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lofi-third-image {
+    width: 32%;
+}
+
+.third-image {
+    padding-left: 7.5px;
+    padding-right: 7.6px;
+    vertical-align: middle;
+    width: 29%;
+}
+
+.double-image {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    width: 42%;
+    max-width: 300px;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.icon-description-container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.icon-description-container > div {
+    margin-bottom: 25px;
+}
+.icon-description {
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 900px) {
