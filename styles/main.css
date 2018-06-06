@@ -3,6 +3,7 @@ body {
     margin: 0px;
     margin-top: 25px;
     font-size: 16px;
+    line-height: 1.5em;
     -webkit-text-size-adjust: none;
 }
 
@@ -37,6 +38,7 @@ a.selected {
 
 .footer {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -152,7 +154,11 @@ a.selected {
     background-color: #F4F4F4 !important;
 }
 
-.project-section > div,
+.project-section {
+    margin-bottom: 45px;
+}
+
+.project-section > div:not(:last-child),
 .project-section > img {
     margin-bottom: 25px;
 }
@@ -167,6 +173,7 @@ a.selected {
 }
 
 .project-sub-header {
+    font-weight: bold;
     text-transform: uppercase;
     color: #62929E;
 }
@@ -189,9 +196,10 @@ a.selected {
 a.project-button {
     color: white;
     background-color: #6E6861;
-    padding: 10px 15px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding: 12px 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 16px;
     display: inline-block;
     border: 0;
@@ -211,22 +219,35 @@ a.highlighted-link:visited {
     justify-content: space-between;
 }
 
-.lofi-third-image {
-    width: 32%;
+.image-label {
+    font-weight: 600;
+    color: #666;
 }
 
 .third-image {
+    display: inline-block;
     padding-left: 7.5px;
     padding-right: 7.6px;
     vertical-align: middle;
     width: 29%;
 }
 
+.third-image > img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
 .double-image {
+    display: inline-block;
     padding-left: 7.5px;
     padding-right: 7.5px;
     width: 42%;
     max-width: 300px;
+}
+
+.double-image > img {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .icon {
@@ -234,16 +255,18 @@ a.highlighted-link:visited {
 }
 
 .icon-description-container {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
 }
 
 .icon-description-container > div {
     margin-bottom: 25px;
 }
+
 .icon-description {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 900px) {
