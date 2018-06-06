@@ -6,10 +6,10 @@ body {
 }
 
 nav a {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 700;
-    padding: 25px;
+    padding: 30px;
 }
 
 nav a.selected {
@@ -75,6 +75,16 @@ a.selected {
     height: 74px;
 }
 
+a.button {
+    color: white;
+    background-color: #E8897B;
+    padding: 15px;
+    margin: 25px;
+    font-size: 16px;
+    border: 0;
+}
+
+
 .title-wrapper {
     text-align: center;
     margin-bottom: 100px;
@@ -84,7 +94,7 @@ a.selected {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.1
 }
 
 .subtitle {
@@ -128,6 +138,34 @@ a.selected {
     opacity: 1;
 }
 
+.description {
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.fun-facts {
+    list-style-type: circle;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.self-image-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.self-image {
+    border-radius: 100%;
+}
+
+.view-resume {
+    align-self: center;
+}
+
 @media (max-width: 900px) {
     body {
         margin-left: 25px;
@@ -141,6 +179,15 @@ a.selected {
 
     .example-image {
         width: 100%;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-title {
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     .self-image-container  {
