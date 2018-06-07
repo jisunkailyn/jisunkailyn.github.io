@@ -296,6 +296,8 @@ a.highlighted-link:visited {
 }
 
 .image-long-text {
+    text-align: left;
+    margin-top: 10px;
     font-size: 14px;
     line-height: 1.2em;
     color: #666;
