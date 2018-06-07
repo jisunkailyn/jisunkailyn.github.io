@@ -1,0 +1,393 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="header section">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="logo" class="logo"/>
+            </a>            
+            <nav>
+                <a class="selected" href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="section">
+                <div class="project-description">
+                    <div class="title project-header">Pomlist</div>
+                    <div class="project-attributes">
+                        <div>iOS App</div>
+                        <div>User Experience, Branding, Visual Design</div>
+                        <div>3 months // 2018</div>
+                    </div>
+                    <div class="no-margin-bottom">
+                        I have been an avid user of the Pomodoro Technique and was on the hunt for a full featured to-do list app with integration of the Pomodoro Timer.  When it was time for me to pick out my capstone project, I thought why not use this opportunity to create a product that I am truly passionate about? I enjoyed building this from the ground up and hope to develop it in the future!
+                    </div>
+                    <div style="text-align: left;" class="button-container">
+                        <a href="https://marvelapp.com/4je3b6j" class="project-button">
+                            View Prototype
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div  style="margin-top: 0px;" class="example-wrapper project-background">
+                <img src="images/pomlist.png" alt="pomlist" class="example-image" />
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">Project Overview</div>
+                <div>
+                        Setting measurable goals and timeframes is key to success.  By integrating a <b>to-do list</b> with the <b>Pomodoro Timer</b> that also tracks progress, Pomlist was designed with a goal of increasing focus, productivity and accountability among users.
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Problem</div>
+                    <div>
+                        <b>Focus fatigue</b> is a common issue in school or workplace and making <b>accurate estimations</b> on tasks and projects suffers due to this.  The inability to make accurate estimates and the hours wasted on <b>distractions</b> disrupts planning and can be costly. 
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Solution</div>
+                    <div>
+                        Pomlist solves the problem of focus fatigue by providing an interface where users can create a running list of <b>grouped tasks</b> and use <b>pomodoros</b>.  The <b>timer</b> feature is also capable of tracking progress for each task and project, thus assisting with making smarter future timeline predictions. 
+                    </div>
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">1. Empathize</div>
+                <div>First, I needed to validate and understand the users' motivations and needs behind creating to-do lists through research.  I also utilized this effort to determine if there was even a need for a product like Pomlist.  Then I studied the competitive landscape in order to gain insights that would later help shape Pomlist.</div>
+                <div class="project-sub-section no-margin-bottom">   
+                    <div class="project-sub-header">Survey</div>
+                    <div>
+                        I conducted a Google Forms survey with 20 participants and learned that a) <b>95%</b> create to-do lists and that b) <b>reminders and notifications</b> are rated as the most important features of to-do list apps.  Also, while (c) 75% of people have not used the Pomodoro Technique before, (d) <b>100%</b> are open to exploring a to-do list app that utilizes the Pomodoro Technique.
+                    </div>
+                </div>
+                <div class="button-container"> 
+                    <a href="https://drive.google.com/open?id=1sLixsIQOat3q_U3sidakZKKtT0Fkku9WcUIHnoYlfwo" class="project-button">See Full Survey</a>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Competitive Analysis</div>
+                    <div>
+                        Despite the productivity app space being overcrowded, none successfully or cohesively integrates task management and Pomodoro Technique together.  The apps are either too simple or complex; designing an <b>intuitive yet sophisticated UX</b> with good use of <b>touch gestures</b> would attract and retain the target demographic of 18-34.
+                    </div>
+                </div>
+                <div class="project-sub-section fotorama">
+                    <img class="project-image" src="images/anydo.png" />
+                    <img class="project-image" src="images/todoist.png" />
+                    <img class="project-image" src="images/wunderlist.png" />
+                    <img class="project-image" src="images/pomtodo.png" />
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">2. Define</div>
+                <div>
+                    By learning about the audience for whom I am designing, I was able to create a point of view that is based on user needs and insights.  During this stage, I built user personas, user stories, and user flows.
+                </div>
+                <div class="project-sub-section no-margin-bottom">   
+                    <div class="project-sub-header">User Personas</div>
+                    <div>
+                        After interviewing a group of potential users, I was able to identify three following personas: 
+                    </div>
+                    <img class="persona-image" src="images/pomlist-personas.png" />
+                    <div>
+                    </div>
+                    <div class="project-list">
+                        <li class="project-list-item">
+                            <b>Creative control</b> - Clara currently chooses to hand write all of her notes due to the lack of creative freedom that her current note-taking app allows her for.  She would like to be able to customize her notes on the app to look like her actual notes.
+                        </li>
+                        <li class="project-list-item">
+                            <b>Organized order</b> - Being a photographer with hectic schedules and deadlines, Sean wants to be able to categorize and apply custom sorting to his tasks.  He also prefers having push notification reminders, so nothing falls through the cracks.
+                        </li>
+                        <li class="project-list-item">
+                            <b>Deadline driven</b> - Patrick needs to be able to track the amount of time he spends on each task in order to give more accurate estimations in the future.  This feature would allow him to be more accountable (personally and professionally) and productive.
+                        </li>
+                    </div> 
+                </div>
+                <div class="button-container">   
+                    <a href="https://drive.google.com/open?id=1sKyFDf4kTjfAAGsxxYOsuaZPAdoUphAj" class="project-button">See User Personas</a>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">User stories & flows</div>
+                    <div>
+                        According to <a class="highlighted-link" href="http://info.perfectomobile.com/rs/perfectomobile/images/why-mobile-apps-fail-report.pdf">research by Perfecto Mobile</a>, one of the main reasons why mobile apps fail is due to poor UX and over-engineering.  Therefore, I created stories and flows with a goal of having the users easily access Pomlist’s core functionality and solve their problem using as little taps as possible.
+                    </div>
+                </div>
+                <div class="project-sub-section centered no-margin-bottom">   
+                    <img class="project-image project-image-max-width" src="images/userstories.png" />
+                </div>
+                <div class="button-container">
+                    <a href="https://drive.google.com/open?id=1g0wZ6OOL0O8n-pB1fpeRHo8N8NnA-AG6LADYjFmiVZ0" class="project-button">See All User Stories</a>
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/pomlist-user-flow-1.png" />
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/pomlist-user-flow-2.png" />
+                </div>
+                <div class="button-container no-margin-bottom">   
+                    <a href="https://drive.google.com/open?id=1RnTfurVXQ1NNzZrc44lZA1Bv1rrD23QH" class="project-button">See All User Flows</a>
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">3. Ideate</div>
+                <div>I gathered additional feedback from potential users on the features and main navigation screens:</div>
+                <div class="project-list">
+                    <li class="project-list-item"><b>Dashboard</b> - offer a visual layout of all of the projects</li>
+                    <li class="project-list-item"><b>Information hierarchy</b> - mimic real-life notes and show projects → folders → tasks → details, such as pomodoros spent, notes, subtasks, and reminders</li>
+                    <li class="project-list-item"><b>Timer</b> - easy-to-use with instructions and should be able to minimize/maximize</li>
+                    <li class="project-list-item"><b>Speed</b> - adding tasks should be quick and easy since users may want to add several tasks at once</li>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Sketching & Low-fidelity Prototyping</div>
+                    <div>Based on these insights that I had collected over various research methods, I sketched out wireframes first then built low-fidelity wireframes.  After printing the wireframes out, I continued to ask users for feedback through paper prototyping and made iterations throughout the process.</div>
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/pomlist-lofi-wireframe.jpg" />
+                </div>
+                <div class="centered">
+                    <div class="third-image">
+                        <img src="images/pomlist-lofi-dashboard.png" />
+                        <div class="image-label">Dashboard</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/pomlist-lofi-details.png" />
+                        <div class="image-label">Project</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/pomlist-lofi-timer.png" />
+                        <div class="image-label">Timer</div>
+                    </div>
+                </div>
+                <div class="button-container no-margin-bottom">
+                    <a href="https://drive.google.com/open?id=1dMk-HTE5VL7FZipOh1YLHTRir8VtOqSf" class="project-button">See All Lo-Fi Wireframes</a>
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">4. Brand Identity</div>
+                <div>
+                    I stepped away from wireframes to decide on a brand name and develop a logo.  I had a general idea of what the primary color should be for the app, as well as what the logo should consist of, but definitely needed user feedback to make the final decision.
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Name</div>
+                    <div>
+                        The name “Pomlist” was created with the two main features of the app in mind: to-do list and pomodoro timer.  It was chosen out of five options by receiving <b>66.7%</b> of the votes in the preference test.
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Logo</div>
+                    <div>
+                        For the logo, I chose a water drop and leaf to signify <b>“growth.”</b>The leaf side shows a list of items while the water drop side has a water reflection that is to represent time and progress.  <b>Logo F</b> won <b>61.5%</b> of the votes from the preference test.
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/logo-brainstorm.jpg" />
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/logo-options.png" />
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Style Guide</div>
+                    <div>
+                        I created a branding style guide to stay consistent throughout my design process.
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <img class="project-image" src="images/pomlist-styleguide.png" />
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">5. Prototype & Validate</div>
+                <div>
+                    During the high-fidelity wireframing and prototyping phase, I ran into a few challenges that required several user testing to solve through.  
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Challenge #1 - Dashboard</div>
+                    <div class="project-list">
+                        <li class="project-list-item"><b>Challenge</b>: information architecture (IA) and visual elements for the main dashboard.</li>
+                        <li class="project-list-item"><b>Solution</b>: created several iterations and tested them with potential users to uncover insights, as well as unforeseen usability issues.</li>
+                    </div>
+                </div>
+                <div class="centered">
+                    <div class="third-image">
+                        <img src="images/challenge-1a.png" />
+                        <div class="image-label">Iteration #1</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/challenge-1b.png" />
+                        <div class="image-label">Iteration #2</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/challenge-1c.png" />
+                        <div class="image-label">Final</div>
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Challenge #2 - Icons</div>
+                    <div class="project-list">
+                        <li class="project-list-item"><b>Challenge</b>: some of the icons caused confusion among users.</li>
+                        <li class="project-list-item"><b>Solution</b>: after updating the misleading icons to be more straightforward, I ran tests to make sure that the new icons were more effective.</li>
+                    </div>
+                    <div class="icon-description-container">
+                        <div class="icon-description">
+                            <div class='icon-group'>
+                                <img class="icon" src="images/menu-icon-old.png" />
+                                <img class="icon" src="images/arrow-icon.png" />
+                                <img class="icon" src="images/menu-icon-new.png" />
+                            </div>
+                            <div class='icon-explanation'>
+                                <b>Menu</b> // initial choice resembled the gripper (for sorting) too much
+                            </div>
+                        </div>
+                        <div class="icon-description">
+                            <div class='icon-group'>
+                                <img class="icon" src="images/more-icon-old.png" />
+                                <img class="icon" src="images/arrow-icon.png" />
+                                <img class="icon" src="images/more-icon-new.png" />
+                            </div>
+                            <div class='icon-explanation'>
+                                <b>More Options</b> // some users believed the first icon looked like a filter
+                            </div>
+                        </div>
+                        <div class="icon-description">
+                            <div class='icon-group'>
+                                <img class="icon" src="images/color-icon-old.png" />
+                                <img class="icon" src="images/arrow-icon.png" />
+                                <img class="icon" src="images/color-icon-new.png" />
+                            </div>
+                            <div class='icon-explanation'>
+                                <b>Color</b> // the purpose of the tear drop symbol was not clear to users
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Challenge #3 - User Flows</div>
+                    <div class="project-list">
+                        <li class="project-list-item"><b>Challenge</b>: users wanted a quicker way to add projects and tasks.</li>
+                        <li class="project-list-item"><b>Solution</b>: reduced the number of steps required to achieve these tasks and maximized efficiency for a pleasant user experience.</li>
+                    </div>
+                </div>
+                <div class="centered">   
+                    <div class="double-image">
+                        <img src="images/add-project-final.gif" />
+                        <div class="image-label">Adding Project (Iteration)</div>
+                    </div>
+                    <div class="double-image">
+                        <img src="images/add-project-iteration.gif" /> 
+                        <div class="image-label">Adding Project (Final)</div>
+                    </div>
+                </div>
+                <div class="centered">   
+                    <div class="double-image">
+                        <img src="images/adding-task-iteration.gif" />
+                        <div class="image-label">Adding Tasks (Iteration)</div>
+                    </div>
+                    <div class="double-image">
+                        <img src="images/adding-tasks-final.gif" /> 
+                        <div class="image-label">Adding Tasks (Final)</div>
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Challenge #4 - Timer</div>
+                    <div class="project-list">
+                        <li class="project-list-item"><b>Challenge</b>: usability issues with the pomodoro timer.</li>
+                        <li class="project-list-item"><b>Solution</b>: made a few design tweaks and introduced the timer button to the dashboard.</li>
+                    </div>
+                </div>
+                <div class="centered">   
+                    <div style="width: 31.3%;" class="third-image">
+                        <img src="images/timer-iteration.gif" />
+                        <div class="image-label">Iteration</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/timer-iteration-heatmap1.png" /> 
+                        <div class="image-label">Iteration Step 1 Heatmap</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/timer-iteration-heatmap2.png" /> 
+                        <div class="image-label">Iteration Step 2 Heatmap</div>
+                    </div>
+                </div>
+                <div class="centered">   
+                    <div style="width: 31.3%;" class="third-image">
+                        <img src="images/timer-final.gif" />
+                        <div class="image-label">Final</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/timer-final-heatmap1.png" /> 
+                        <div class="image-label">Final Step 1 Heatmap*</div>
+                    </div>
+                    <div class="third-image">
+                        <img src="images/timer-final-heatmap2.png" /> 
+                        <div class="image-label">Final Step 2 Heatmap</div>
+                    </div>
+                </div>
+                <div style="display: flex;" class="centered">
+                    <div style="width: 60%;">
+                        <img style="width: 100%" class="third-image" src="images/initial-graph.png" /> 
+                    </div>
+                    <div style="width: 40%;">
+                        <img style="width: 100%" class="third-image" src="images/final-graph.png" /> 
+                        <div class="image-long-text">
+                            * Majority of people that did not pass step 1 tapped the open circle to the left of the task, which they would learn by actually using the app that it would just mark the task as complete.
+                        </div>
+                    </div>
+                </div>
+                <div class="project-sub-section">   
+                    <div class="project-sub-header">Challenge #5 - Onboarding</div>
+                    <div class="project-list">
+                        <li class="project-list-item"><b>Challenge</b>: requiring users to register or login adds a layer of friction during the crucial first impression.</li>
+                        <li class="project-list-item"><b>Solution</b>: make a great first impression by allowing the users to skip the sign up until they have explored the value of Pomlist.</li>
+                    </div>
+                </div>
+                <div class="centered">   
+                    <div class="double-image">
+                        <img src="images/signup-iteration.gif" /> 
+                        <div class="image-label">Iteration - sign up required</div>
+                    </div>
+                    <div class="double-image">
+                        <img src="images/signup-final.gif" /> 
+                        <div class="image-label">Final - sign up not required</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">Final Deliverable</div>
+                <div>In total, I designed 100+ screens in Sketch and created a clickable prototype using Marvel.</div>
+                <div class="button-container no-margin-bottom">
+                    <a href="https://marvelapp.com/4je3b6j" class="project-button">View Prototype</a>
+                </div>
+            </div>
+            <div class="section project-section">
+                <div class="title project-header">Takeaways</div>
+                <div>One of the main learnings from my first project was to do more research, as well as user testing, so I made sure to accomplish that with this project.  Doing more research and making data-driven decisions allowed me to feel more confident about my design choices.  My favorite part about user testing is being able to observe how users actually use the product and discover any user behavior insights that would ultimately allow me to create a product for them. </div>
+                <div>In the future, I would like to conduct even more research in the beginning and try <b>affinity mapping</b> and <b>customer journey mapping</b>.  I tried a few new tools this time around, such as Marvel and Axure, so I would like to continue challenging myself to <b>explore new tools</b> like Figma, Flinto, and Zeplin.  Lastly, I want to <b>sketch more</b> - it really is the fastest and most effective way to bring out your ideas.  I recently purchased a sketch notebook, so I have no excuse!  </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="links">
+                <a href="mailto:jisunkailyn@gmail.com" class='email'>
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jisunkailyn" class='linkedin'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.behance.net/jisunkailya491" class='behance'>
+                    <i class="fab fa-behance"></i>
+                </a>
+            </div>
+            <div class='copyright'>
+                <i class="far fa-copyright"></i>
+                Kailyn Lim
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    </body>
+</html>
