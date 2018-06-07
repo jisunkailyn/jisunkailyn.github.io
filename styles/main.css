@@ -183,6 +183,7 @@ a.button {
 }
 
 .project-sub-header {
+    margin-top: 40px;
     font-weight: bold;
     text-transform: uppercase;
     color: #62929E;
@@ -264,8 +265,8 @@ a.highlighted-link:visited {
 
 .double-image {
     display: inline-block;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 42%;
     max-width: 300px;
 }
@@ -292,6 +293,14 @@ a.highlighted-link:visited {
 .icon-description {
     display: flex;
     align-items: center;
+}
+
+.image-long-text {
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #666;
+    font-style: italic;
+    margin-left: 15px;
 }
 
 .description {
@@ -332,13 +341,6 @@ a.highlighted-link:visited {
     align-self: center;
 }
 
-@media (max-width: 550px) {
-    .project-sub-section {
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-}
-
 @media (max-width: 900px) {
     body {
         margin-left: 25px;
@@ -365,5 +367,22 @@ a.highlighted-link:visited {
 
     .self-image-container  {
         margin-left: 0;
+    }
+
+    .double-image {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .project-sub-section {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .double-image {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
     }
 }
