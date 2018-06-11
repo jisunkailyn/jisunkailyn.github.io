@@ -190,7 +190,14 @@ a.button {
     margin-top: 40px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.pomlist .project-sub-header {
     color: #62929E;
+}
+
+.beau .project-sub-header {
+    color: #7EB3AD;
 }
 
 .project-image {
