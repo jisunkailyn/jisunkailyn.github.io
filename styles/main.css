@@ -263,6 +263,14 @@ a.highlighted-link:visited {
     color: #9BC995 !important;
 }
 
+.beau a.highlighted-link,
+.beau a.highlighted-link:visited {
+    color: #7EB3AD !important;
+}
+
+
+.beau 
+
 .project-side-by-side {
     display: flex;
     justify-content: space-between;
