@@ -147,7 +147,11 @@ a.button {
     max-width: 600px;
 }
 
-.project-header {
+.beau .project-description > div {
+    max-width: 690px;
+}
+
+.pomlist .project-header {
     color: #9BC995;
 }
 
@@ -186,7 +190,14 @@ a.button {
     margin-top: 40px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.pomlist .project-sub-header {
     color: #62929E;
+}
+
+.beau .project-sub-header {
+    color: #7EB3AD;
 }
 
 .project-image {
@@ -226,6 +237,19 @@ a.project-button {
     border: 0;
 }
 
+.beau a.project-button {
+    background-color: #6EB5AD;
+}
+
+.beau a.project-button-alternate {
+    margin-left: 30px;
+    color: #6EB5AD;
+    border: 2px solid #6EB5AD;
+    padding: 10px 30px;
+    font-size: 16px;
+    display: inline-block;
+}
+
 .no-margin-bottom {
     margin-bottom: 0px !important;
 }
@@ -238,6 +262,14 @@ a.highlighted-link,
 a.highlighted-link:visited {
     color: #9BC995 !important;
 }
+
+.beau a.highlighted-link,
+.beau a.highlighted-link:visited {
+    color: #7EB3AD !important;
+}
+
+
+.beau 
 
 .project-side-by-side {
     display: flex;
@@ -341,6 +373,24 @@ a.highlighted-link:visited {
 
 .view-resume {
     align-self: center;
+}
+
+.beau .project-header {
+    color: #EDDA00;
+}
+
+.competitor-analysis {
+    padding: 25px;
+}
+
+.usability-issues {
+    display: flex;
+    justify-content: center;
+}
+
+.usability-issues img {
+    max-height: 15px;
+    margin: 15px 15px 30px 15px;
 }
 
 @media (max-width: 900px) {
