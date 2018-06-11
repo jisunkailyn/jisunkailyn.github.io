@@ -78,15 +78,14 @@ a.selected {
     height: 74px;
 }
 
-a.button {
+.button {
+    display: inline-block;
     color: white;
     background-color: #E8897B;
-    padding: 15px;
-    margin: 25px;
+    padding: 12px 30px;
     font-size: 16px;
     border: 0;
 }
-
 
 .title-wrapper {
     text-align: center;
@@ -391,6 +390,39 @@ a.highlighted-link:visited {
 .usability-issues img {
     max-height: 15px;
     margin: 15px 15px 30px 15px;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    background-color: #EFEFEF;
+    font-size: 16px;
+    border: 0;
+    width: 100%;
+    resize: none;
+}
+
+.contact-form textarea {
+
+}
+
+.contact-names {
+    display: flex;
+}
+
+.contact-names input:not(:last-child) {
+    margin-right: 25px;
+}
+
+.contact-form div {
+    margin-bottom: 25px;
+}
+
+.about-container {
+    max-width: 600px;
 }
 
 @media (max-width: 900px) {
