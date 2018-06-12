@@ -202,6 +202,7 @@ a.selected {
 .project-image {
     border: 2px solid #E0E0E0;
     border-radius: 2px;
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -258,6 +259,11 @@ a.project-button {
 .centered {
     text-align: center;
 }
+.flex-centered {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
 a.highlighted-link,
 a.highlighted-link:visited {
@@ -268,9 +274,6 @@ a.highlighted-link:visited {
 .beau a.highlighted-link:visited {
     color: #7EB3AD !important;
 }
-
-
-.beau 
 
 .project-side-by-side {
     display: flex;
@@ -286,7 +289,7 @@ a.highlighted-link:visited {
 .third-image {
     display: inline-block;
     padding-left: 7.5px;
-    padding-right: 7.6px;
+    padding-right: 7.5px;
     vertical-align: middle;
     width: 29%;
 }
@@ -411,9 +414,6 @@ a.highlighted-link:visited {
     resize: none;
 }
 
-.contact-form textarea {
-
-}
 
 .contact-names {
     display: flex;
@@ -429,6 +429,11 @@ a.highlighted-link:visited {
 
 .about-container {
     max-width: 600px;
+}
+
+.image-margin {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 @media (max-width: 900px) {
@@ -476,8 +481,20 @@ a.highlighted-link:visited {
     }
 
     .double-image {
-        padding-left: 7.5px;
-        padding-right: 7.5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .third-image {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .image-margin {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .beau a.project-button-alternate {
