@@ -92,8 +92,7 @@ a.selected {
     margin-bottom: 70px;
 }
 
-.title,
-.index-title {
+.title {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -501,9 +500,5 @@ a.highlighted-link:visited {
 
     .beau a.project-button-alternate {
         margin-left: 0px;
-    }
-
-    .index-title {
-        font-size: 28px;
     }
 }
