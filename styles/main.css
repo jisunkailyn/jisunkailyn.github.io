@@ -78,15 +78,14 @@ a.selected {
     height: 74px;
 }
 
-a.button {
-    color: white;
+.button {
+    display: inline-block;
+    color: white !important;
     background-color: #E8897B;
-    padding: 15px;
-    margin: 25px;
+    padding: 12px 30px;
     font-size: 16px;
     border: 0;
 }
-
 
 .title-wrapper {
     text-align: center;
@@ -234,6 +233,7 @@ a.project-button {
     padding: 12px 30px;
     font-size: 16px;
     display: inline-block;
+    margin: 2px;
     border: 0;
 }
 
@@ -242,6 +242,7 @@ a.project-button {
 }
 
 .beau a.project-button-alternate {
+    margin: 2px;
     margin-left: 30px;
     color: #6EB5AD;
     border: 2px solid #6EB5AD;
@@ -339,7 +340,11 @@ a.highlighted-link:visited {
 
 .description {
     line-height: 1.5;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+
+.description p:first-child {
+    margin-top: 0;
 }
 
 .fun-facts {
@@ -393,6 +398,39 @@ a.highlighted-link:visited {
     margin: 15px 15px 30px 15px;
 }
 
+.contact-form {
+    margin-top: 40px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    background-color: #EFEFEF;
+    font-size: 16px;
+    border: 0;
+    width: 100%;
+    resize: none;
+}
+
+.contact-form textarea {
+
+}
+
+.contact-names {
+    display: flex;
+}
+
+.contact-names input:not(:last-child) {
+    margin-right: 25px;
+}
+
+.contact-form div {
+    margin-bottom: 25px;
+}
+
+.about-container {
+    max-width: 600px;
+}
+
 @media (max-width: 900px) {
     body {
         margin-left: 25px;
@@ -428,6 +466,10 @@ a.highlighted-link:visited {
 }
 
 @media (max-width: 550px) {
+    nav a {
+        padding: 30px 10px;
+    }
+
     .project-sub-section {
         margin-left: 25px;
         margin-right: 25px;
@@ -436,5 +478,9 @@ a.highlighted-link:visited {
     .double-image {
         padding-left: 7.5px;
         padding-right: 7.5px;
+    }
+
+    .beau a.project-button-alternate {
+        margin-left: 0px;
     }
 }
