@@ -210,10 +210,60 @@ a.selected {
     max-width: 500px;
 }
 
-.persona-image {
-    width: 100%;
+.personas {
     margin-bottom: 25px;
 }
+
+.persona-title {
+    display: table;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+}
+
+.persona-title > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.personas > div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+}
+
+.beau .persona-title {
+    color: #7EB3AD;
+}
+
+.pomlist .persona-title {
+    color: #62929E;
+}
+
+.persona-name {
+    margin-bottom: 7.5px;
+    font-size: 18px;
+    color: #666;
+    width: 100%;
+    font-weight: bold;
+}
+
+.persona-text {
+    font-style: italic;
+    width: 100%;
+}
+
+.persona-image {
+    width: 100%;
+    max-width: 172px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
 
 .project-list-item {
     list-style-type: circle;
@@ -500,5 +550,17 @@ a.highlighted-link:visited {
 
     .beau a.project-button-alternate {
         margin-left: 0px;
+    }
+
+    .persona-title {
+        font-size: 16px;
+    }
+
+    .persona-name {
+        font-size: 14px;
+    }
+
+    .persona-text {
+        font-size: 14px;
     }
 }
