@@ -212,6 +212,7 @@ a.selected {
 
 .personas {
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .persona-title {
@@ -220,8 +221,8 @@ a.selected {
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 20px;
-    height: 50px;
+    font-size: 25px;
+    line-height: 1.2em;
 }
 
 .persona-title > div {
@@ -234,6 +235,11 @@ a.selected {
     vertical-align: top;
     text-align: center;
     width: 30%;
+}
+
+.persona-description {
+    max-width: 172px;
+    margin: auto;
 }
 
 .beau .persona-title {
