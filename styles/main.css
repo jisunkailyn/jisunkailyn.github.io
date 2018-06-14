@@ -223,6 +223,7 @@ a.selected {
     font-weight: bold;
     font-size: 25px;
     line-height: 1.2em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .persona-title > div {
@@ -240,6 +241,8 @@ a.selected {
 .persona-description {
     max-width: 172px;
     margin: auto;
+    line-height: 20px;
+    font-size: 16px;
 }
 
 .beau .persona-title {
@@ -247,7 +250,7 @@ a.selected {
 }
 
 .pomlist .persona-title {
-    color: #62929E;
+    color: #77BA99;
 }
 
 .persona-name {
