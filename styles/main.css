@@ -90,6 +90,7 @@ a.selected {
 .title-wrapper {
     text-align: center;
     margin-bottom: 70px;
+    max-width: 520px;
 }
 
 .title {
@@ -211,6 +212,8 @@ a.selected {
 }
 
 .personas {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -221,7 +224,7 @@ a.selected {
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 1.2em;
     font-family: 'Open Sans', sans-serif;
 }
@@ -236,10 +239,11 @@ a.selected {
     vertical-align: top;
     text-align: center;
     width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .persona-description {
-    max-width: 172px;
     margin: auto;
     line-height: 20px;
     font-size: 16px;
@@ -268,7 +272,6 @@ a.selected {
 
 .persona-image {
     width: 100%;
-    max-width: 172px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
@@ -496,6 +499,22 @@ a.highlighted-link:visited {
     margin-right: 15px;
 }
 
+.only-mobile {
+    display: none;
+}
+
+.challenge-timer-charts {
+    display: flex;
+}
+
+.iteration-nav-chart {
+    width: 60%;
+}
+
+.final-nav-chart {
+    width: 40%;
+}
+
 @media (max-width: 900px) {
     body {
         margin-left: 25px;
@@ -571,5 +590,27 @@ a.highlighted-link:visited {
 
     .persona-text {
         font-size: 14px;
+    }
+
+    .only-mobile {
+        display: block;
+    }
+
+    .fotorama {
+        display: none;
+    }
+
+    .challenge-timer-charts {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .iteration-nav-chart,
+    .final-nav-chart {
+        width: 100%;
+    }
+
+    .icon-description-container {
+        margin-left: 15px;
     }
 }
