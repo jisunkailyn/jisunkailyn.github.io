@@ -613,4 +613,12 @@ a.highlighted-link:visited {
     .icon-description-container {
         margin-left: 15px;
     }
+    .personas {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .personas > div {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
