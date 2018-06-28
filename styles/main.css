@@ -97,7 +97,7 @@ a.selected {
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1
+    line-height: 1.1;
 }
 
 .subtitle {
@@ -604,7 +604,7 @@ a.highlighted-link:visited {
         display: flex;
         flex-direction: column;
     }
-    
+
     .iteration-nav-chart,
     .final-nav-chart {
         width: 100%;
