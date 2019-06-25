@@ -3,7 +3,7 @@ body {
     margin: 0px;
     margin-top: 25px;
     font-size: 18px;
-    line-height: 1.7em;
+    line-height: 1.8;
     -webkit-text-size-adjust: none;
 }
 
@@ -111,7 +111,6 @@ a.selected {
 .subtitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    line-height: 1.7;
     padding: 20px;
 }
 
@@ -156,11 +155,11 @@ a.selected {
 
 .project-description > div {
     margin-bottom: 25px;
-    max-width: 790px;
+    max-width: 690px;
 }
 
 .beau .project-description > div {
-    max-width: 690px;
+    max-width: 790px;
 }
 
 .pomlist .project-header {
@@ -417,7 +416,6 @@ a.highlighted-link:visited {
 }
 
 .description {
-    line-height: 1.7;
     margin-top: 40px;
 }
 
