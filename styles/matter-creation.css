@@ -1,0 +1,33 @@
+.credits {
+  margin-bottom: 25px;
+}
+
+.example-image {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 1200px;
+}
+
+.emphasize {
+  color: #00C5E1;
+}
+
+.project-side-by-side .image-margin {
+  width: 50%;
+}
+
+.matter-creation .project-header {
+  color: #FF8600;
+}
+
+.matter-creation .project-sub-header {
+  color: #192756;
+}
+
+.matter-creation a {
+  color: #00C5E1;
+}
+
+.matter-creation .image-label {
+  font-weight: normal;
+}
