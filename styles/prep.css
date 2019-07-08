@@ -24,3 +24,11 @@
 .prep .project-sub-header {
   color: #42C399;
 }
+
+.prep .project-side-by-side {
+  align-items: flex-end;
+}
+
+.prep .persona-title {
+  color: #0082ED;
+}
