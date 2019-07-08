@@ -360,7 +360,7 @@ a.highlighted-link:visited {
 .project-side-by-side {
     display: flex;
     justify-content: space-between;
-
+    align-items: flex-end;
 }
 
 .image-label {
