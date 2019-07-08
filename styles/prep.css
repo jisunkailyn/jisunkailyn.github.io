@@ -1,0 +1,26 @@
+.prep .project-header {
+  color: #0082ED;
+}
+.prep a.project-button {
+  background-color: #426DAE;
+}
+
+.example-image {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 1200px;
+}
+
+.prep a.project-button-alternate {
+  margin: 2px;
+  margin-left: 30px;
+  color: #426DAE;
+  border: 2px solid #426DAE;
+  padding: 10px 30px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.prep .project-sub-header {
+  color: #42C399;
+}

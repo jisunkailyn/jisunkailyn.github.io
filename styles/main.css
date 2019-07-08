@@ -334,6 +334,10 @@ a.project-button {
     margin-bottom: 0px !important;
 }
 
+.no-border {
+    border: none;
+}
+
 .centered {
     text-align: center;
 }
@@ -356,11 +360,11 @@ a.highlighted-link:visited {
 .project-side-by-side {
     display: flex;
     justify-content: space-between;
+
 }
 
 .image-label {
     font-size: 16px;
-    font-weight: 600;
     color: #666;
 }
 
@@ -474,7 +478,7 @@ a.highlighted-link:visited {
 
 .usability-issues img {
     max-height: 15px;
-    margin: 15px 15px 30px 15px;
+    margin: 30px 15px;
 }
 
 .contact-form {
@@ -510,6 +514,14 @@ a.highlighted-link:visited {
 .image-margin {
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.image-margin:first-child {
+    margin-left: 0;
+}
+
+.image-margin:last-child {
+    margin-left: 0;
 }
 
 .only-mobile {
@@ -638,4 +650,8 @@ a.highlighted-link:visited {
 
 .image-explanation {
     text-align: center;
+}
+
+.featherlight-content .project-image {
+    max-width: 100%;
 }
