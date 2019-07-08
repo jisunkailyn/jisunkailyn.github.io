@@ -125,6 +125,11 @@ a.selected {
     margin-bottom: 50px;
 }
 
+.main .example-image {
+    width: 100%;
+    max-width: 900px;
+}
+
 .example-image {
     display: block;
     margin: auto;
@@ -566,6 +571,7 @@ a.highlighted-link:visited {
 
     .self-image-container  {
         margin-left: 0;
+        margin: auto;
     }
 
     .double-image {
