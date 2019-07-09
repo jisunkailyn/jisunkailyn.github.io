@@ -586,7 +586,6 @@ a.highlighted-link:visited {
 
 .example-split .example-wrapper img {
     padding: 15px;
-    max-width: 600px;
     object-fit: contain;
 }
 
