@@ -21,6 +21,10 @@
   color: #192756;
 }
 
+.matter-creation .project-background {
+  background-color: #edf4ef !important
+}
+
 .matter-creation a {
   color: #00C5E1;
 }
