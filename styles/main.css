@@ -365,7 +365,6 @@ a.highlighted-link:visited {
 .project-side-by-side {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .image-label {
@@ -661,3 +660,8 @@ a.highlighted-link:visited {
 .featherlight-content .project-image {
     max-width: 100%;
 }
+
+.credits {
+    margin-bottom: 25px;
+  }
+  
