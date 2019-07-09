@@ -545,7 +545,6 @@ a.highlighted-link:visited {
     width: 40%;
 }
 
-
 .image-explanation {
     text-align: center;
 }
@@ -587,8 +586,13 @@ a.highlighted-link:visited {
 
 .example-split .example-wrapper img {
     padding: 15px;
+    max-width: 600px;
+    object-fit: contain;
 }
 
+.beau .project-background {
+    background-color: #fff9f3 !important
+}
 
 @media (max-width: 900px) {
     body {
@@ -723,8 +727,4 @@ a.highlighted-link:visited {
     .overlay-subtitle {
         font-size: 16px;
     }
-}
-
-.beau .project-background {
-    background-color: #fff9f3 !important
 }
