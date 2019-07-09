@@ -126,6 +126,7 @@ a.selected {
 }
 
 .main .example-image {
+    box-sizing: border-box;
     width: 100%;
     max-width: 900px;
 }
@@ -544,6 +545,51 @@ a.highlighted-link:visited {
     width: 40%;
 }
 
+
+.image-explanation {
+    text-align: center;
+}
+
+.featherlight-content .project-image {
+    max-width: 100%;
+}
+
+.credits {
+    margin-bottom: 25px;
+}
+  
+.example-split {
+    width: 100%;
+    display: flex;
+}
+
+.example-split .example-wrapper:last-child {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.example-split .example-wrapper:first-child {
+    width: 100%;
+    margin-right: 15px;
+}
+
+
+.work .example-wrapper {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.example-split .example-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.example-split .example-wrapper img {
+    padding: 15px;
+}
+
+
 @media (max-width: 900px) {
     body {
         margin-left: 25px;
@@ -647,21 +693,34 @@ a.highlighted-link:visited {
         flex-direction: column;
         justify-content: center;
     }
+
     .personas > div {
         width: 100%;
         margin-bottom: 15px;
     }
-}
 
-.image-explanation {
-    text-align: center;
-}
+    .work .example-wrapper {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 
-.featherlight-content .project-image {
-    max-width: 100%;
-}
+    .example-split .example-wrapper:last-child {
+        width: 100%;
+        margin-left: 5px;
+    }
+    
+    .example-split .example-wrapper:first-child {
+        width: 100%;
+        margin-right: 5px;
+    }
+   
+    .overlay-title {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
 
-.credits {
-    margin-bottom: 25px;
-  }
-  
+    .overlay-subtitle {
+        font-size: 16px;
+    }
+}
