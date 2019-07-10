@@ -136,6 +136,23 @@ a.selected {
     margin: auto;
 }
 
+.main .design-sprints-image.example-image {
+    padding: 30px 40px;
+}
+
+.main .matter-creation-image.example-image {
+    padding: 40px 20px 10px;
+}
+
+.main .beau-image.example-image {
+    padding: 0; max-width: 1100px;
+}
+
+.main .prep-image.example-image {
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
 .overlay {
     font-family: 'Open Sans', sans-serif;
     transition: all .15s ease-in-out;
@@ -659,6 +676,10 @@ a.highlighted-link:visited {
         margin-left: 0px;
     }
 
+    .prep a.project-button-alternate {
+        margin-left: 0px !important;
+    }
+
     .persona-title {
         font-size: 18px;
     }
@@ -705,6 +726,10 @@ a.highlighted-link:visited {
     .work .example-wrapper {
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    .work .example-image {
+        padding: 5px 10px !important;
     }
 
     .example-split .example-wrapper:last-child {
