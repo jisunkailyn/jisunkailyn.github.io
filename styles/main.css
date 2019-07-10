@@ -729,7 +729,7 @@ a.highlighted-link:visited {
     }
 
     .work .example-image {
-        padding: 5px 10px !important;
+        padding: 0 10px !important;
     }
 
     .example-split .example-wrapper:last-child {
