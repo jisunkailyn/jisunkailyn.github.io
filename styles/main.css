@@ -6,7 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
     -webkit-text-size-adjust: none;
 }
@@ -16,7 +16,7 @@ b {
 }
 
 nav a {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding: 30px;
 }
@@ -37,9 +37,11 @@ a:visited {
 }
 
 a:hover,
-a.selected {
-    color: #f35e5c;
+a.selected,
+.highlight {
+    color: #A75C48;
 }
+
 
 .header {
     display: flex;
@@ -86,14 +88,14 @@ a.selected {
 }
 
 .logo {
-    width: 74px;
-    height: 74px;
+    width: 80px;
+    height: 80px;
 }
 
 .button {
     display: inline-block;
     color: white !important;
-    background-color: #f35e5c;
+    background-color: #A75C48;
     padding: 12px 30px;
     font-size: 18px;
     border: 0;
@@ -102,7 +104,7 @@ a.selected {
 .title-wrapper {
     text-align: center;
     margin-bottom: 70px;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .title {
@@ -120,7 +122,7 @@ a.selected {
 
 .example-wrapper {
     position: relative;
-    background-color: #DADADA;
+    background-color: #f4f4f4;
     margin-top: 50px;
     margin-bottom: 50px;
 }
