@@ -1,0 +1,36 @@
+
+.example-image {
+  max-width: 1200px;
+}
+
+.emphasize {
+  color: #00C5E1;
+}
+
+.project-side-by-side .image-margin {
+  width: 50%;
+}
+
+.home-details body {
+  color: #212121;
+}
+
+.home-details-redesign .project-header {
+  color: #0D47A1;
+}
+
+.home-details-redesign .project-sub-header {
+  color: #00A5D6;
+}
+
+.home-details-redesign .project-background {
+  background-color: #f9fafc !important
+}
+
+.home-details-redesign .project-image {
+  border: 0;
+}
+
+.home-details-redesign a {
+  color: #00C5E1;
+}
