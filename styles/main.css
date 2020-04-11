@@ -99,6 +99,7 @@ a.selected,
     padding: 12px 30px;
     font-size: 18px;
     border: 0;
+    border-radius: 6px;
 }
 
 .title-wrapper {
@@ -339,6 +340,7 @@ a.project-button {
     display: inline-block;
     margin: 2px;
     border: 0;
+    border-radius: 6px;
 }
 
 .beau a.project-button {
@@ -353,6 +355,7 @@ a.project-button {
     padding: 10px 30px;
     font-size: 18px;
     display: inline-block;
+    border-radius: 6px;
 }
 
 .no-margin-bottom {
